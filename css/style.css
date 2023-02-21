@@ -62,18 +62,21 @@ body h5 {
 /* Navigation bar */
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 1200px;
-  height: 80px;
+  border-bottom: solid 2px var(--secondary-bg-color);
 }
 
 header nav {
   display: flex;
   align-items: center;
   gap: 100px;
+}
+.navigation-container {
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .menu {
